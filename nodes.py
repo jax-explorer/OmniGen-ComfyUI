@@ -5,6 +5,7 @@ import shutil
 import numpy as np
 from PIL import Image
 from OmniGen import OmniGenPipeline
+import gc
 
 from .utils_nodes import get_vram_info
 
